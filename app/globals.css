@@ -24,3 +24,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.text-shadow-fametonic-glow {
+  text-shadow: 0px 4px 4px #fc004e;
+}
