@@ -1,7 +1,7 @@
 export default function AnnouncementBar() {
   return (
     <div className="bg-[linear-gradient(89.63deg,#FC004E_-2.16%,#10CBE0_115.27%)] font-figtree p-[20px]">
-      <p className="text-[#00C2FF] text-center font-extrabold">
+      <p className="text-[#00E7F9] text-center font-extrabold">
         🚀 FRESH BEGINNINGS SALE:
         <span className="!text-white !font-semibold text-[14px]">
           {" "}

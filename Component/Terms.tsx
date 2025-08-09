@@ -7,7 +7,7 @@ const Terms = () => {
         By clicking "Get Started", you agree with Terms and Conditions, Privacy
         Policy, Subscription Terms
       </p>
-      <div className="mb-4">
+      <div className="mb-8">
         <Footer />
       </div>
     </div>
