@@ -21,16 +21,16 @@ export default function HeroSection() {
   ];
 
   return (
-    <section className="bg-black text-white px-[20px] pb-[20px] flex flex-col-reverse md:flex-row items-center justify-between">
+    <section className="bg-black text-white px-[20px] pb-[20px] flex flex-col-reverse md:flex-row items-center justify-between md:mt-[57px] md:px-0">
       {/* Left Side */}
-      <div className="flex-1 max-w-[580px] px-[20px]">
-        <h1 className="text-[25px] text-center font-[800] leading-[1.2]">
+      <div className="flex-1 max-w-[580px] px-[20px] md:px-0">
+        <h1 className="text-[25px] text-center md:text-left font-[800] leading-[1.2] md:text-[35px]">
           Want to Turn Social Media Into a Profitable Career?
         </h1>
-        <p className="text-[#00C2FF] text-center font-[800] text-[25px] leading-[100%] tracking-[0] align-middle mb-[22px] text-shadow-fametonic-glow">
+        <p className="text-[#00E7F9] text-center md:text-left font-[800] text-[25px] leading-[100%] tracking-[0] align-middle mb-[22px] text-shadow-fametonic-glow md:text-[35px]">
           Discover your way to success with Fametonic:
         </p>
-        <ul className="text-[#CCCCCC] font-[500] text-[16px] leading-[1.5] mb-[28px] space-y-[8px] max-w-[350px] font-['Figtree']">
+        <ul className="text-[#CCCCCC] font-[500] text-[16px] leading-[1.5] mb-[28px] space-y-[8px] max-w-[350px] md:max-w-[516px] font-['Figtree']">
           {features.map((item, index) => (
             <li key={index} className="flex items-center">
               <Image
@@ -44,17 +44,20 @@ export default function HeroSection() {
             </li>
           ))}
         </ul>
-        <div className="mt-[22px]">
-          <Terms />
-        </div>
-        <div className="">
-          <button className="flex justify-center items-center gap-[10px] bg-[#FC004E] w-full py-[8px] rounded-[10px] text-[20px] font-[700] border-0 shadow-fametonic-glow">
-            GET STARTED <Image src={arrow} alt="Arrow" width={11} height={6} />
-          </button>
+        <div className="md:flex md:flex-col-reverse">
+          <div className="mt-[22px]">
+            <Terms />
+          </div>
+          <div className="md:max-w-[313px]">
+            <button className="flex justify-center items-center gap-[10px] bg-[#FC004E] w-full py-[8px] rounded-[10px] text-[20px] font-[700] border-0 shadow-fametonic-glow">
+              GET STARTED{" "}
+              <Image src={arrow} alt="Arrow" width={11} height={6} />
+            </button>
 
-          <p className="text-[#FFFFFF] font-figtree font-[400] text-[12px] leading-[16px] tracking-[0] text-center align-middle text-[#888888] mt-[10px]">
-            1-minute quiz for personalized insights
-          </p>
+            <p className="text-[#FFFFFF] font-figtree font-[400] text-[12px] leading-[16px] tracking-[0] text-center align-middle text-[#888888] mt-[10px]">
+              1-minute quiz for personalized insights
+            </p>
+          </div>
         </div>
       </div>
 
