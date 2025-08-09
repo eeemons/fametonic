@@ -21,7 +21,7 @@ export default function HeroSection() {
   ];
 
   return (
-    <section className="bg-black text-white px-[20px] py-[20px] flex flex-col-reverse md:flex-row items-center justify-between">
+    <section className="bg-black text-white px-[20px] pb-[20px] flex flex-col-reverse md:flex-row items-center justify-between">
       {/* Left Side */}
       <div className="flex-1 max-w-[580px] px-[20px]">
         <h1 className="text-[25px] text-center font-[800] leading-[1.2]">
@@ -58,7 +58,7 @@ export default function HeroSection() {
       </div>
 
       {/* Right Side */}
-      <div className="flex-1 flex justify-center mt-[40px] md:mt-0">
+      <div className="flex-1 flex justify-center">
         <PhoneMockup />
       </div>
     </section>

@@ -9,7 +9,7 @@ export default function Navbar() {
     console.log("Menu opened!");
   };
   return (
-    <nav className="flex items-center justify-between px-[20px] md:px-[60px] py-[20px] bg-black">
+    <nav className="flex items-center justify-between px-[20px] md:px-[60px] pt-[16px] bg-black">
       {/* Desktop Logo (left) */}
       <div className="hidden md:block">
         <Image src={logo} alt="Fame Tonic Logo" width={140} height={40} />
