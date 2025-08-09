@@ -32,9 +32,9 @@ export default function HeroSection() {
         </p>
         <ul className="text-[#CCCCCC] font-[500] text-[16px] leading-[1.5] mb-[28px] space-y-[8px] max-w-[350px] font-['Figtree']">
           {features.map((item, index) => (
-            <li key={index} className="flex items-start">
+            <li key={index} className="flex items-center">
               <Image
-                className="text-[#00C2FF] flex-shrink-0 mt-[2px]"
+                className="text-[#00C2FF]"
                 src={stars}
                 alt="Stars"
                 width={22}
@@ -48,10 +48,11 @@ export default function HeroSection() {
           <Terms />
         </div>
         <div className="">
-          <button className="flex justify-center items-center gap-[10px] bg-[#FC004E] w-full py-[8px] rounded-[10px] text-[20px] font-semibold border-0">
+          <button className="flex justify-center items-center gap-[10px] bg-[#FC004E] w-full py-[8px] rounded-[10px] text-[20px] font-[700] border-0 shadow-fametonic-glow">
             GET STARTED <Image src={arrow} alt="Arrow" width={11} height={6} />
           </button>
-          <p className="text-[#FFFFFF] font-figtree font-normal text-[12px] leading-[16px] tracking-[0] text-center align-middle text-[#888888] mt-[8px]">
+
+          <p className="text-[#FFFFFF] font-figtree font-[400] text-[12px] leading-[16px] tracking-[0] text-center align-middle text-[#888888] mt-[10px]">
             1-minute quiz for personalized insights
           </p>
         </div>

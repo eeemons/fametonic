@@ -36,3 +36,7 @@ body {
 .text-shadow-fametonic-glow {
   text-shadow: 0px 4px 4px #fc004e;
 }
+
+.shadow-fametonic-glow {
+  box-shadow: 2px 2px 10px 0px #00e7f9;
+}
