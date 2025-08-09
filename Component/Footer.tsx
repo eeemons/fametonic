@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="px-[60px] py-[20px] text-center text-[12px] text-[#888888] bg-black">
+    <footer className="text-center text-[10px] text-[#ABABAB] bg-black font-['Nunito']">
       Fametonic © 2025 EAI. All Rights Reserved.
     </footer>
   );

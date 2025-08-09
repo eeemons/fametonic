@@ -9,7 +9,6 @@ export default function Home() {
       <AnnouncementBar />
       <Navbar />
       <HeroSection />
-      <Footer />
     </div>
   );
 }
