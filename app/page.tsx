@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="bg-black min-h-screen">
       <AnnouncementBar />
-      <div className="md:px-[215px] lg:max-w-[1440px] mx-auto">
+      <div className="md:px-[215px] lg:max-w-[1440px] mx-auto relative overflow-hidden">
         <Navbar />
         <HeroSection />
       </div>
