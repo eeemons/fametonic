@@ -23,7 +23,7 @@ export default function HeroSection() {
   return (
     <section className="bg-black text-white px-[20px] pb-[20px] flex flex-col-reverse md:flex-row md:px-0 relative md:min-h-[679px] md:pb-[40px]">
       {/* Left Side - Content */}
-      <div className="flex-1 max-w-[580px] px-[20px] md:px-0 relative z-10 md:mt-[57px]">
+      <div className="flex-1 max-w-[580px] px-[20px] md:px-0 relative z-10 md:mt-[57px] mx-auto md:mx-0">
         <h1 className="text-[25px] text-center md:text-left font-[800] leading-[1.2] md:text-[35px] md:leading-[1.15]">
           Want to Turn Social Media Into a Profitable Career?
         </h1>
