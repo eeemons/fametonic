@@ -21,9 +21,13 @@ export default function Navbar() {
       </div>
 
       {/* Desktop Menu (right) */}
-      <ul className="hidden md:flex gap-[40px] text-white text-[16px] self-start">
-        <li className="cursor-pointer hover:text-[#FF3E86]">About us</li>
-        <li className="cursor-pointer hover:text-[#FF3E86]">Contact</li>
+      <ul className="hidden md:flex gap-[40px] text-white text-[16px] self-start ">
+        <li className="cursor-pointer hover:text-[#FF3E86] font-[600] text-[#A9A9A9]">
+          About us
+        </li>
+        <li className="cursor-pointer hover:text-[#FF3E86] font-[600] text-[#A9A9A9]">
+          Contact
+        </li>
       </ul>
 
       {/* Mobile Hamburger (right) */}
